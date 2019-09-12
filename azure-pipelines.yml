@@ -3,10 +3,10 @@
 # set some variables that you'll need when you deploy
 variables:
   # the name of the service connection that you created above
-  serviceConnectionToAzure: myapp
+  serviceConnectionToAzure: pimcorepoc-sitewerk
   # the name of your web app here is the same one you used above
   # when you created the web app using the Azure CLI
-  appName: my-app
+  appName: pimcorepoc
   phpVersion: 7.3
 
 # Test and package your PHP project.
@@ -57,4 +57,5 @@ steps:
 - bash: ./test.sh
 - script: |
     sudo apt-get  install -y telnet
+
 
