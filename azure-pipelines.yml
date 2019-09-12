@@ -6,7 +6,7 @@ variables:
   serviceConnectionToAzure: pimcorepoc-sitewerk
   # the name of your web app here is the same one you used above
   # when you created the web app using the Azure CLI
-  appName: pimcorepoc
+  appName: my-app
   phpVersion: 7.3
 
 # Test and package your PHP project.
