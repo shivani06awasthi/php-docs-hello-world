@@ -54,8 +54,4 @@ steps:
     appName: $(appName)
     package: $(build.artifactstagingdirectory)/**/*.zip
 
-- bash: ./test.sh
-- script: |
-    sudo apt-get  install -y telnet
-
 
